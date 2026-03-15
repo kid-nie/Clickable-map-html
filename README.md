@@ -8,3 +8,4 @@ A clickable map made using html for a 2nd year college project.
 4. Japan
 5. Iran
 
+### image of map turned to url using https://www.image2url.com
