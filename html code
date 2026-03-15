@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+
+<p>Click on the map bottom right corner:</p>
+
+<img src="https://image2url.com/r2/default/images/1773516536948-ffee0714-3010-4ce6-a9f9-dd7fda66c8d9.png" alt="map" usemap="#heritagehaven">
+
+
+<map name="heritagehaven">
+  <area shape="circle" coords="200,300,44" href="coffee.htm" onclick="myFunction()">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the map!");
+}
+</script>
+
+</body>
+</html>
